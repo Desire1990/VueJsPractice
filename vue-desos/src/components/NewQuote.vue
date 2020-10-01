@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-	    <div class="card-body ">
+	    <div class="card-body quote">
 	      <slot></slot>
     	</div>
     </div>
@@ -11,10 +11,12 @@
 </script>
 
 <style>
-    .card {
+    .quote {
         cursor: pointer;
-        background-color: 
     }
+    .quote:hover {
+      background-color: red;
+      }
 
    
 </style>

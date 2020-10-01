@@ -47,6 +47,9 @@
 					return alert('Delete some quotes to continue adding again!!!');
 				}
   				this.quotes.push(quote);
+  				// if( this.quote = " "){
+  				// 	this.quotes.pop(quote);  					
+  				// }
   			},
   			deleteQuote(index){
   				this.quotes.splice(index, 1);
@@ -64,7 +67,6 @@
 
 </script>
 <style>
-
 
 </style>
 
